@@ -31,6 +31,9 @@
   transition: all 0.2s ease-in-out 0s;
   color: #162e5a; /* The text color of any menuitem that is not selected */
   font-size: 1.0em; /* The size of the text of the top menuitems */
+  float: left;/* IE Fix for lists*/
+  clear: left;/* IE Fix for lists*/
+  width: 100%;/* IE Fix for lists*/
 }
 .rmlmenu li a:hover,
 .rmlmenu li:hover > a {
